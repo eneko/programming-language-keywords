@@ -16,8 +16,8 @@ keyword_counts = lexers.map { |lexer|
   end
 }
 
-#puts names.zip(keyword_counts).to_h #.sort_by { |k, v| v }
-
+puts "| Language | Keyword Count |"
+puts "| -------- | ------------- |"
 names.zip(keyword_counts).each { |name, count|
-  puts "#{name}: #{count}"
+  puts "| #{name} | #{count} |"
 }
