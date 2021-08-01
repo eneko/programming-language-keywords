@@ -5,8 +5,9 @@ keywords means a programming language is more or less complex.
 
 I was more interested in comparing keywords side-by-side. While this script
 does not achieve that goal (yet), it does programmatically count the keywords
-for each programming language, using the Ruby gem `rouge`, which has over
-65 million downloads and it's widely used.
+for each programming language, [using the Ruby gem `rouge`](http://rouge.jneen.net),
+which has over **65 million downloads**, suports over 200 programming languages,
+and it's widely used.
 
 ## The script
 
